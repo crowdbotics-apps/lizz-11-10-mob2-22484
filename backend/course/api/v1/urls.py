@@ -1,17 +1,17 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from .viewsets import (
-    CourseViewSet,
     CategoryViewSet,
-    LessonViewSet,
+    CourseViewSet,
     EnrollmentViewSet,
-    SubscriptionTypeViewSet,
-    PaymentMethodViewSet,
-    ModuleViewSet,
-    GroupViewSet,
-    SubscriptionViewSet,
     EventViewSet,
+    GroupViewSet,
+    LessonViewSet,
+    ModuleViewSet,
+    PaymentMethodViewSet,
     RecordingViewSet,
+    SubscriptionViewSet,
+    SubscriptionTypeViewSet,
 )
 
 router = DefaultRouter()
