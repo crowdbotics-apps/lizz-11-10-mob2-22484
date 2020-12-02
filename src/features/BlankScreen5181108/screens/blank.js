@@ -41,16 +41,16 @@ export default class Blank extends React.Component {
       </View>
       <View style={styles.View_4}>
         <View style={styles.View_28}>
-          <View>
+          <View style={styles.View_29}>
             <Icon name="user" style={styles.Icon_62} />
           </View>
-          <View>
+          <View style={styles.View_30}>
             <Text style={styles.Text_63}>John Smith</Text>
           </View>
           <View style={styles.View_31}>
             <Text style={styles.Text_64}>john@email.com</Text>
           </View>
-          <View>
+          <View style={styles.View_32}>
             <Icon name="chevron-right" style={styles.Icon_88} />
           </View>
         </View>
@@ -113,7 +113,7 @@ const styles = StyleSheet.create({
   View_1: { backgroundColor: "#f5f5f5" },
   View_3: {
     width: "100%",
-    height: 50,
+    height: 200,
     backgroundColor: "#FFFFFF",
     alignItems: "center"
   },
@@ -150,9 +150,9 @@ const styles = StyleSheet.create({
     borderColor: "#f5f5f5",
     borderBottomWidth: 2
   },
-  View_29: {},
+  View_29: { width: 20 },
   Icon_62: { marginTop: 0, marginBottom: 0, fontSize: 14, color: "#6ccaf9" },
-  View_30: {},
+  View_30: { width: 100 },
   Text_63: {
     marginTop: 0,
     marginBottom: 0,
@@ -163,7 +163,7 @@ const styles = StyleSheet.create({
     alignSelf: "flex-start",
     fontWeight: "bold"
   },
-  View_31: { justifyContent: "center", alignContent: "flex-start" },
+  View_31: { width: 100, justifyContent: "center", alignContent: "flex-start" },
   Text_64: {
     marginTop: 0,
     marginBottom: 0,
@@ -174,7 +174,7 @@ const styles = StyleSheet.create({
     fontSize: 10,
     color: "#888888"
   },
-  View_32: {},
+  View_32: { width: 20 },
   Icon_88: { marginTop: 0, marginBottom: 0, fontSize: 14, color: "#cccccc" },
   View_89: {
     width: "100%",
