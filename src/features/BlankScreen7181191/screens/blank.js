@@ -29,13 +29,7 @@ export default class Blank extends React.Component {
     <View style={styles.View_1}>
       <View style={styles.View_31}>
         <View style={styles.View_33}>
-          <ImageBackground
-            source={{
-              uri:
-                "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/captain-john-smith-1180w-600h_I9YJU6O.jpg"
-            }}
-            style={styles.ImageBackground_36}
-          >
+          <ImageBackground style={styles.ImageBackground_36}>
             <Text style={styles.Text_38}>Title</Text>
             <Text style={styles.Text_40}>Time</Text>
           </ImageBackground>
@@ -88,7 +82,7 @@ const styles = StyleSheet.create({
     paddingTop: 0,
     paddingBottom: 0,
     fontSize: 16,
-    color: "#FFFFFF",
+    color: "blue",
     fontWeight: "bold"
   },
   Text_40: {
@@ -98,7 +92,7 @@ const styles = StyleSheet.create({
     paddingRight: 0,
     paddingTop: 0,
     paddingBottom: 0,
-    color: "#ffffff"
+    color: "blue"
   },
   View_42: { width: "100%", flexDirection: "row" },
   View_43: {
@@ -108,11 +102,17 @@ const styles = StyleSheet.create({
     alignItems: "center",
     alignContent: "center"
   },
-  Icon_50: { marginLeft: 5, marginRight: 5, marginTop: 0, marginBottom: 0 },
+  Icon_50: {
+    marginLeft: 5,
+    marginRight: 5,
+    marginTop: 0,
+    marginBottom: 0,
+    fontSize: 40,
+    color: "red"
+  },
   Text_66: {
     marginTop: 0,
     marginBottom: 0,
-    paddingLeft: 5,
     paddingRight: 5,
     paddingTop: 5,
     paddingBottom: 5
@@ -124,7 +124,14 @@ const styles = StyleSheet.create({
     alignItems: "center",
     alignContent: "center"
   },
-  Icon_55: { marginLeft: 5, marginRight: 5, marginTop: 0, marginBottom: 0 },
+  Icon_55: {
+    marginLeft: 5,
+    marginRight: 5,
+    marginTop: 0,
+    marginBottom: 0,
+    fontSize: 40,
+    color: "red"
+  },
   Text_72: {},
   View_45: {
     width: "33.3%",
@@ -133,7 +140,14 @@ const styles = StyleSheet.create({
     alignItems: "center",
     alignContent: "center"
   },
-  Icon_60: { marginLeft: 5, marginRight: 5, marginTop: 0, marginBottom: 0 },
+  Icon_60: {
+    marginLeft: 5,
+    marginRight: 5,
+    marginTop: 0,
+    marginBottom: 0,
+    fontSize: 40,
+    color: "red"
+  },
   Text_80: {},
   Text_41: {}
 })
