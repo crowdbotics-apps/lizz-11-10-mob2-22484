@@ -29,20 +29,29 @@ export default class Blank extends React.Component {
     <View style={styles.View_1}>
       <View style={styles.View_31}>
         <View style={styles.View_33}>
-          <ImageBackground style={styles.ImageBackground_36}>
+          <ImageBackground
+            source={{
+              uri:
+                "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/captain-john-smith-1180w-600h_I9YJU6O.jpg"
+            }}
+            style={styles.ImageBackground_36}
+          >
             <Text>Title</Text>
             <Text>Time</Text>
           </ImageBackground>
-        </View>
-        <View style={styles.View_42}>
-          <View style={styles.View_43}>
-            <Icon name="star" />
-          </View>
-          <View style={styles.View_44}>
-            <Icon name="star" />
-          </View>
-          <View style={styles.View_45}>
-            <Icon name="star" />
+          <View style={styles.View_42}>
+            <View style={styles.View_43}>
+              <Icon name="star" />
+              <Text>1</Text>
+            </View>
+            <View style={styles.View_44}>
+              <Icon name="star" />
+              <Text>2</Text>
+            </View>
+            <View style={styles.View_45}>
+              <Icon name="star" />
+              <Text>3</Text>
+            </View>
           </View>
         </View>
         <Text>Sample text content</Text>
@@ -66,11 +75,14 @@ const styles = StyleSheet.create({
   Text_38: {},
   Text_40: {},
   View_42: { width: "100%", flexDirection: "row" },
-  View_43: { width: "33.3%" },
+  View_43: { width: "33.3%", alignContent: "center" },
   Icon_50: {},
-  View_44: { width: "33.3%" },
+  Text_66: {},
+  View_44: { width: "33.3%", alignContent: "center" },
   Icon_55: {},
-  View_45: { width: "33.3%" },
+  Text_72: {},
+  View_45: { width: "33.3%", alignContent: "center" },
   Icon_60: {},
+  Text_80: {},
   Text_41: {}
 })
