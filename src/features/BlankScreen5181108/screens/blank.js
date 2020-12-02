@@ -111,7 +111,12 @@ export default class Blank extends React.Component {
 
 const styles = StyleSheet.create({
   View_1: { backgroundColor: "#f5f5f5" },
-  View_3: { width: "100%", height: 50, alignItems: "center" },
+  View_3: {
+    width: "100%",
+    height: 50,
+    backgroundColor: "#FFFFFF",
+    alignItems: "center"
+  },
   Icon_6: { alignSelf: "flex-start", color: "#888888" },
   Image_8: { width: 70, height: 70, borderRadius: 70 },
   Text_10: {
@@ -131,10 +136,15 @@ const styles = StyleSheet.create({
     fontSize: 10,
     color: "#888888"
   },
-  View_4: { width: "100%", marginTop: 30 },
+  View_4: {
+    width: "100%",
+    height: 200,
+    marginTop: 30,
+    backgroundColor: "#FFFFFF"
+  },
   View_28: {
     width: "100%",
-    height: 0,
+    height: 20,
     paddingLeft: 20,
     flexDirection: "row",
     borderColor: "#f5f5f5",
@@ -168,7 +178,7 @@ const styles = StyleSheet.create({
   Icon_88: { marginTop: 0, marginBottom: 0, fontSize: 14, color: "#cccccc" },
   View_89: {
     width: "100%",
-    height: 0,
+    height: 20,
     paddingLeft: 20,
     flexDirection: "row",
     borderColor: "#f5f5f5",
@@ -202,7 +212,7 @@ const styles = StyleSheet.create({
   Icon_88: { marginTop: 0, marginBottom: 0, fontSize: 14, color: "#cccccc" },
   View_90: {
     width: "100%",
-    height: 0,
+    height: 20,
     paddingLeft: 20,
     flexDirection: "row",
     borderColor: "#f5f5f5",
@@ -236,7 +246,7 @@ const styles = StyleSheet.create({
   Icon_88: { marginTop: 0, marginBottom: 0, fontSize: 14, color: "#cccccc" },
   View_91: {
     width: "100%",
-    height: 0,
+    height: 20,
     paddingLeft: 20,
     flexDirection: "row",
     borderColor: "#f5f5f5",
