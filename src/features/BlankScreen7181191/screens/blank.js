@@ -29,7 +29,13 @@ export default class Blank extends React.Component {
     <View style={styles.View_1}>
       <View style={styles.View_31}>
         <View style={styles.View_33}>
-          <ImageBackground style={styles.ImageBackground_36}>
+          <ImageBackground
+            source={{
+              uri:
+                "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/captain-john-smith-1180w-600h_I9YJU6O.jpg"
+            }}
+            style={styles.ImageBackground_36}
+          >
             <Text style={styles.Text_38}>Title</Text>
             <Text style={styles.Text_40}>Time</Text>
           </ImageBackground>
@@ -83,7 +89,7 @@ const styles = StyleSheet.create({
     paddingBottom: 0,
     fontSize: 16,
     color: "blue",
-    fontWeight: "bold"
+    fontFamily: "CrimsonText-Bold"
   },
   Text_40: {
     marginTop: 0,
@@ -92,7 +98,8 @@ const styles = StyleSheet.create({
     paddingRight: 0,
     paddingTop: 0,
     paddingBottom: 0,
-    color: "blue"
+    color: "blue",
+    fontFamily: "Merriweather-Regular"
   },
   View_42: { width: "100%", flexDirection: "row" },
   View_43: {
