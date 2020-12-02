@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
     paddingBottom: 20,
     backgroundColor: "blue"
   },
-  View_33: { width: "100%", height: 250, backgroundColor: "#FFFFFF" },
+  View_33: { width: "100%", height: 250, backgroundColor: "#FFFFFe" },
   Image_36: {},
   Text_38: {}
 })
