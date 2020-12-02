@@ -29,20 +29,14 @@ export default class Blank extends React.Component {
     <View style={styles.View_1}>
       <View style={styles.View_31}>
         <View style={styles.View_33}>
-          <ImageBackground
-            source={{
-              uri:
-                "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/captain-john-smith-1180w-600h_I9YJU6O.jpg"
-            }}
-            style={styles.ImageBackground_36}
-          >
+          <ImageBackground style={styles.ImageBackground_36}>
             <Text>Title</Text>
             <Text>Time</Text>
           </ImageBackground>
           <View style={styles.View_42}>
             <View style={styles.View_43}>
               <Icon name="star" />
-              <Text>1</Text>
+              <Text style={styles.Text_66}>1</Text>
             </View>
             <View style={styles.View_44}>
               <Icon name="star" />
@@ -75,9 +69,21 @@ const styles = StyleSheet.create({
   Text_38: {},
   Text_40: {},
   View_42: { width: "100%", flexDirection: "row" },
-  View_43: { width: "33.3%", alignContent: "center" },
+  View_43: {
+    width: "33.3%",
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    alignContent: "center"
+  },
   Icon_50: {},
-  Text_66: {},
+  Text_66: {
+    marginTop: 0,
+    marginBottom: 0,
+    paddingLeft: 0,
+    paddingRight: 0,
+    paddingTop: 0
+  },
   View_44: { width: "33.3%", alignContent: "center" },
   Icon_55: {},
   Text_72: {},
