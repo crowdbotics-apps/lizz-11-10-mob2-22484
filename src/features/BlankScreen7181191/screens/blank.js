@@ -29,21 +29,27 @@ export default class Blank extends React.Component {
     <View style={styles.View_1}>
       <View style={styles.View_31}>
         <View style={styles.View_33}>
-          <ImageBackground style={styles.ImageBackground_36}>
+          <ImageBackground
+            source={{
+              uri:
+                "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/captain-john-smith-1180w-600h_I9YJU6O.jpg"
+            }}
+            style={styles.ImageBackground_36}
+          >
             <Text>Title</Text>
             <Text>Time</Text>
           </ImageBackground>
           <View style={styles.View_42}>
             <View style={styles.View_43}>
-              <Icon name="star" />
+              <Icon name="star" style={styles.Icon_50} />
               <Text style={styles.Text_66}>1</Text>
             </View>
             <View style={styles.View_44}>
-              <Icon name="star" />
+              <Icon name="star" style={styles.Icon_55} />
               <Text>2</Text>
             </View>
             <View style={styles.View_45}>
-              <Icon name="star" />
+              <Icon name="star" style={styles.Icon_60} />
               <Text>3</Text>
             </View>
           </View>
@@ -76,7 +82,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     alignContent: "center"
   },
-  Icon_50: {},
+  Icon_50: { marginLeft: 5, marginRight: 5, marginTop: 0, marginBottom: 0 },
   Text_66: {
     marginTop: 0,
     marginBottom: 0,
@@ -84,11 +90,23 @@ const styles = StyleSheet.create({
     paddingRight: 0,
     paddingTop: 0
   },
-  View_44: { width: "33.3%", alignContent: "center" },
-  Icon_55: {},
+  View_44: {
+    width: "33.3%",
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    alignContent: "center"
+  },
+  Icon_55: { marginLeft: 5, marginRight: 5, marginTop: 0, marginBottom: 0 },
   Text_72: {},
-  View_45: { width: "33.3%", alignContent: "center" },
-  Icon_60: {},
+  View_45: {
+    width: "33.3%",
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    alignContent: "center"
+  },
+  Icon_60: { marginLeft: 5, marginRight: 5, marginTop: 0, marginBottom: 0 },
   Text_80: {},
   Text_41: {}
 })
