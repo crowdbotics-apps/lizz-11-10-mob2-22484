@@ -28,10 +28,10 @@ export default class Blank extends React.Component {
   render = () => (
     <View style={styles.View_1}>
       <View style={styles.View_5}>
-        <View>
+        <View style={styles.View_6}>
           <Icon name="star" />
         </View>
-        <View>
+        <View style={styles.View_7}>
           <Text>Sample text content</Text>
         </View>
       </View>
@@ -53,9 +53,9 @@ export default class Blank extends React.Component {
 const styles = StyleSheet.create({
   View_1: { backgroundColor: "#ff00ff" },
   View_5: { width: "100%", height: 20, flexDirection: "row" },
-  View_6: {},
+  View_6: { width: 20 },
   Icon_9: {},
-  View_7: {},
+  View_7: { width: "80%" },
   Text_30: {},
   View_31: {
     width: "100%",
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
     paddingBottom: 20,
     backgroundColor: "blue"
   },
-  View_33: { width: "100%", height: 250 },
+  View_33: { width: "100%", height: 250, backgroundColor: "#FFFFFF" },
   Image_36: {},
   Text_38: {}
 })
