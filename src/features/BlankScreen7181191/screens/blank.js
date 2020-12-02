@@ -27,24 +27,20 @@ export default class Blank extends React.Component {
 
   render = () => (
     <View style={styles.View_1}>
-      <View style={styles.View_5}>
-        <View style={styles.View_6}>
-          <Icon name="star" />
-        </View>
-        <View style={styles.View_7}>
-          <Text>Sample text content</Text>
-        </View>
-      </View>
       <View style={styles.View_31}>
         <View style={styles.View_33}>
-          <Image
+          <ImageBackground
             source={{
               uri:
                 "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/captain-john-smith-1180w-600h_I9YJU6O.jpg"
             }}
-          />
-          <Text>Sample text content</Text>
+            style={styles.ImageBackground_36}
+          >
+            <Text>Title</Text>
+            <Text>Time</Text>
+          </ImageBackground>
         </View>
+        <Text>Sample text content</Text>
       </View>
     </View>
   )
@@ -52,11 +48,6 @@ export default class Blank extends React.Component {
 
 const styles = StyleSheet.create({
   View_1: { backgroundColor: "#ff00ff" },
-  View_5: { width: "100%", height: 20, flexDirection: "row" },
-  View_6: { width: 20 },
-  Icon_9: {},
-  View_7: { width: "80%" },
-  Text_30: {},
   View_31: {
     width: "100%",
     paddingLeft: 20,
@@ -66,6 +57,22 @@ const styles = StyleSheet.create({
     backgroundColor: "blue"
   },
   View_33: { width: "100%", height: 250, backgroundColor: "#FFFFFe" },
-  Image_36: {},
-  Text_38: {}
+  ImageBackground_36: {
+    width: "100%",
+    height: 200,
+    fontSize: 12,
+    color: "#000000",
+    backgroundColor: "#ffffff",
+    fontStyle: "normal",
+    fontWeight: "normal",
+    flexDirection: "column",
+    flexWrap: "wrap",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    alignContent: "stretch",
+    backgroundSize: "contain"
+  },
+  Text_38: {},
+  Text_40: {},
+  Text_41: {}
 })
