@@ -32,16 +32,38 @@ export default class Blank extends React.Component {
         title="Show alert when pressed"
         onPress={() => alert("Pressed!")}
       />
+      <View style={styles.View_6}>
+        <View>
+          <Text>Sample text content</Text>
+        </View>
+        <View>
+          <Text>Sample text content</Text>
+        </View>
+      </View>
     </View>
   )
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    marginHorizontal: 16
-  },
   View_1: {},
   Text_3: {},
-  Button_5: {}
+  Button_5: {},
+  View_6: {
+    marginTop: 0,
+    marginBottom: 0,
+    paddingLeft: 0,
+    paddingRight: 0,
+    paddingTop: 0,
+    paddingBottom: 0,
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    alignContent: "stretch",
+    backgroundSize: "auto"
+  },
+  View_7: {},
+  Text_11: {},
+  View_8: {},
+  Text_14: {}
 })
